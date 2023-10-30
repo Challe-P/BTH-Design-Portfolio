@@ -1,5 +1,6 @@
 body {
-    background-color: lightpink;
+    background-image: url('/dbwebb/design/me/portfolio/assets/img/fluff.jpeg');
+    background-color: rgb(220, 214, 200);
 }
 
 * {
@@ -46,7 +47,7 @@ body {
 /* Title */
 
 .title, .logo {
-    padding: 3em 3em 3em 0;
+    padding: 3em 3em 3em 0.5em;
 }
 
 @media (max-width: 767px) {
@@ -97,11 +98,13 @@ p, td, th, li, dd {
     text-align: justify;
     overflow-wrap: break-word;
     word-wrap: break-word;
+    font-family: "Source sans 3";
 }
 
 h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0.6em;
     font-weight: bold;
+    font-family: "Oswald";
 }
 
 img {
