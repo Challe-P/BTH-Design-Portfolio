@@ -6,6 +6,6 @@ Description: This is our index page.
 Home page
 ==========================
 
-The source for this page is in `content/index.md`.
+Hej! Jag heter Vilhelm och bor i Malmö. När jag inte gör världens vackraste hemsidor så arbetar jag som bibliotekarie.
 
-This is a sample home page written in markdown with some frontmatter defined.
+![Vilhelm Malmberg Eskilsson](%assets_url%/img/me_256.jpg)
