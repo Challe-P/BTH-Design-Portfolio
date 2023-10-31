@@ -9,12 +9,17 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/brands';
 @import '../../shared/fontawesome/scss/solid';
 @import '../../shared/fontawesome/scss/regular';
-@import url('https://fonts.googleapis.com/css?family=Oswald|Poly|Arsenal&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poly|Arsenal&display=swap');
 @import 'placement';
 @import 'header';
 @import 'responsive';
 @import 'footer';
 @import 'typography';
+
+@font-face {
+    font-family: "Oswald";
+    src: url('../../../typsnitt/Oswald/Oswald-VariableFont_wght.ttf');
+}
 
 body {
     background-color: $background-color;
