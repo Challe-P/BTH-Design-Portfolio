@@ -1,0 +1,64 @@
+/* technology.scss */
+.landingpage {
+    display: grid;
+    gap: 1em 1em;
+    padding-bottom: 1em;
+}
+
+.landingpage h1 {
+    grid-column: span 3;
+    justify-self: center;
+}
+
+.box {
+    grid-column: span 1;
+    padding: 1em 1em 1em 0.5em;
+    border: 0.25em outset;
+    border-color: $accent-color;
+}
+
+.box h2 {
+    margin: 0;
+}
+.box:hover {
+    box-shadow: 5px 5px 5px $background-alternative-color;
+}
+.box-2 {
+    @extend .box;
+    grid-column: span 2;
+}
+
+.box-3 {
+    @extend .box;
+    grid-column: span 3;
+}
+
+
+.technology {
+    display: grid;
+    grid-template-areas: 'left right';
+    grid-template-columns: 1fr 5fr;
+    gap: 2em;
+}
+
+.tech-nav {
+    grid-area: left;
+    grid-column: 1;
+    ul {
+        padding-left: 0;
+        li {
+            list-style-type: none;
+        }
+    } 
+
+}
+
+.tech-content {
+    grid-area: right;
+    grid-column: 2;
+    padding-right: 0.5em;
+}
+
+.active-tech {
+    background-color: $accent-color;
+}

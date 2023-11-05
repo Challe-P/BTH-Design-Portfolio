@@ -10733,7 +10733,7 @@ body {
 }
 
 .title, .logo {
-  padding: 3em 3em 3em 0.25em;
+  padding: 1em 2em 2em 0.5em;
 }
 
 .title * {
@@ -10744,83 +10744,11 @@ body {
   font-style: italic;
 }
 
-@media (max-width: 767px) {
-  .title, .logo {
-    padding: 1em 1em 1em 0.25em;
-  }
-  .title {
-    min-width: 50%;
-  }
-  .logo {
-    max-width: 30%;
-  }
-  html, .root {
-    font-size: 16px;
-    line-height: 24px;
-  }
-  body, .article {
-    font-size: 1em;
-    line-height: 1.5em;
-    margin: auto;
-  }
-  h1, .h1 {
-    font-size: 1.9375em;
-    line-height: 1.5483871em;
-    margin-top: 0.77419355em;
-    margin-bottom: 1.5483871em;
-  }
-  h2, .h2 {
-    font-size: 1.5625em;
-    line-height: 1.92em;
-    margin-top: 0.96em;
-    margin-bottom: 0.96em;
-  }
-  h3, .h3 {
-    font-size: 1.25em;
-    line-height: 1.2em;
-    margin-top: 1.2em;
-    margin-bottom: 0;
-  }
-  h4, .h4 {
-    font-size: 1em;
-    line-height: 1.5em;
-    margin-top: 1.5em;
-    margin-bottom: 0;
-  }
-  h5, .h5 {
-    font-size: 1em;
-    line-height: 1.5em;
-    margin-top: 1.5em;
-    margin-bottom: 0;
-  }
-  p, ul, ol, pre, table, blockquote {
-    margin-top: 0;
-    margin-bottom: 1.5em;
-  }
-  ul ul, ol ol, ul ol, ol ul {
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-  /* Let's make sure all's aligned */
-  hr, .hr {
-    border: 1px solid;
-    margin: -1px 0;
-  }
-  a, b, i, strong, em, small, code {
-    line-height: 0;
-  }
-  sub, sup {
-    line-height: 0;
-    position: relative;
-    vertical-align: baseline;
-  }
-  sup {
-    top: -0.5em;
-  }
-  sub {
-    bottom: -0.25em;
-  }
+.active {
+  background-color: #dda88a;
+  border-radius: 10px;
 }
+
 .footer {
   display: flex;
   justify-content: space-between;
@@ -10941,6 +10869,160 @@ sub {
   bottom: -0.25em;
 }
 
+/* technology.scss */
+.landingpage {
+  display: grid;
+  gap: 1em 1em;
+  padding-bottom: 1em;
+}
+
+.landingpage h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+
+.box, .box-3, .box-2 {
+  grid-column: span 1;
+  padding: 1em 1em 1em 0.5em;
+  border: 0.25em outset;
+  border-color: #dda88a;
+}
+
+.box h2, .box-3 h2, .box-2 h2 {
+  margin: 0;
+}
+
+.box:hover, .box-3:hover, .box-2:hover {
+  box-shadow: 5px 5px 5px #8ab9dd;
+}
+
+.box-2 {
+  grid-column: span 2;
+}
+
+.box-3 {
+  grid-column: span 3;
+}
+
+.technology {
+  display: grid;
+  grid-template-areas: "left right";
+  grid-template-columns: 1fr 5fr;
+  gap: 2em;
+}
+
+.tech-nav {
+  grid-area: left;
+  grid-column: 1;
+}
+.tech-nav ul {
+  padding-left: 0;
+}
+.tech-nav ul li {
+  list-style-type: none;
+}
+
+.tech-content {
+  grid-area: right;
+  grid-column: 2;
+  padding-right: 0.5em;
+}
+
+.active-tech {
+  background-color: #dda88a;
+}
+
+@media (max-width: 767px) {
+  .title, .logo {
+    padding: 1em 1em 1em 0.25em;
+  }
+  .title {
+    min-width: 50%;
+  }
+  .logo {
+    max-width: 30%;
+  }
+  html, .root {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  body, .article {
+    font-size: 1em;
+    line-height: 1.5em;
+    margin: auto;
+  }
+  h1, .h1 {
+    font-size: 1.9375em;
+    line-height: 1.5483871em;
+    margin-top: 0.77419355em;
+    margin-bottom: 1.5483871em;
+  }
+  h2, .h2 {
+    font-size: 1.5625em;
+    line-height: 1.92em;
+    margin-top: 0.96em;
+    margin-bottom: 0.96em;
+  }
+  h3, .h3 {
+    font-size: 1.25em;
+    line-height: 1.2em;
+    margin-top: 1.2em;
+    margin-bottom: 0;
+  }
+  h4, .h4 {
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-top: 1.5em;
+    margin-bottom: 0;
+  }
+  h5, .h5 {
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-top: 1.5em;
+    margin-bottom: 0;
+  }
+  p, ul, ol, pre, table, blockquote {
+    margin-top: 0;
+    margin-bottom: 1.5em;
+  }
+  ul ul, ol ol, ul ol, ol ul {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  /* Let's make sure all's aligned */
+  hr, .hr {
+    border: 1px solid;
+    margin: -1px 0;
+  }
+  a, b, i, strong, em, small, code {
+    line-height: 0;
+  }
+  sub, sup {
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  sup {
+    top: -0.5em;
+  }
+  sub {
+    bottom: -0.25em;
+  }
+  .tech-nav {
+    display: none;
+  }
+  .technology {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .landingpage {
+    grid-template-columns: 1fr;
+    gap: 1em 0;
+  }
+  .box, .box-2, .box-3 {
+    grid-column: 1;
+  }
+}
 @font-face {
   font-family: "Oswald";
   src: url("../../../typsnitt/Oswald/Oswald-VariableFont_wght.ttf");

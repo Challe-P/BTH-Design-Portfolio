@@ -91,5 +91,23 @@
         bottom: -0.25em;
     }
 
+    .tech-nav {
+        display: none;   
+    }
+
+    .technology {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .landingpage {
+        grid-template-columns: 1fr;
+        gap: 1em 0;
+    }
+
+    .box, .box-2, .box-3 {
+        grid-column: 1;
+    }
+
 }
 

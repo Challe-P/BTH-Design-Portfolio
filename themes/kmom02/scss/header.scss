@@ -4,7 +4,7 @@
 }
 
 .title, .logo {
-    padding: 3em 3em 3em 0.25em;
+    padding: 1em 2em 2em 0.5em;
 }
 
 .title * {
@@ -13,4 +13,9 @@
 
 .title p {
     font-style: italic;
+}
+
+.active {
+    background-color: $accent-color;
+    border-radius: 10px;
 }
