@@ -10,8 +10,8 @@
                 <h2>Technologies</h2>
                 <ul>
                     {% for page in pages if page.title and not page.hidden and '/technology/' in page.url %}
-                        <li{% if page.id==current_page.id %} class="active-tech" {% endif %}>
-                            <a href="{{ page.url }}">{{ page.title }}</a> 
+                        <li>
+                            <a {% if page.id==current_page.id %}  class="active-tech" {% endif %} href="{{ page.url }}">{{ page.title }}</a> 
                         </li>
                     {% endfor %}
                 </ul>

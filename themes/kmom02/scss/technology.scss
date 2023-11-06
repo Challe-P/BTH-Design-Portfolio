@@ -19,16 +19,15 @@
     &:hover { 
         box-shadow: 5px 5px 5px $background-alternative-color;
     }
+
+    h2 {
+        margin: 0;
+    }
 }
 
 .box {
     @extend %box;
 }
-
-.box h2 {
-    margin: 0;
-}
-
 
 .box-2 {
     @extend %box;
@@ -69,5 +68,5 @@
 }
 
 .active-tech {
-    background-color: $accent-color;
+    text-decoration: underline $accent-color 2.5px;
 }

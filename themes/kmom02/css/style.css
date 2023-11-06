@@ -10890,8 +10890,7 @@ sub {
 .box-3:hover, .box-2:hover, .box:hover {
   box-shadow: 5px 5px 5px #8ab9dd;
 }
-
-.box h2 {
+.box-3 h2, .box-2 h2, .box h2 {
   margin: 0;
 }
 
@@ -10928,7 +10927,7 @@ sub {
 }
 
 .active-tech {
-  background-color: #dda88a;
+  text-decoration: underline #dda88a 2.5px;
 }
 
 @media (max-width: 767px) {
