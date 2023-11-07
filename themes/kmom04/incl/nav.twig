@@ -28,11 +28,12 @@
                     </li>
                 {% endfor %}
                     <li class="li-icon"><a href="?action=session_destroy" title="Destroy the session" role="button" class="social"><i class="fa-solid fa-explosion"></i></a></li>
-                    <li class="li-icon"><a href="?action=theme" title="Change theme" role="button" class="social">
                     {% if config.session.theme == "dark" %} 
+                    <li class="li-icon"><a href="?action=theme" title="Change theme" role="button" class="social">
                         <i class="fa-solid fa-umbrella-beach"></i>
                     {% else %}
-                        <i class="fa-regular fa-moon"></i> </i> 
+                    <li class="li-icon-night"><a href="?action=theme" title="Change theme" role="button" class="social">
+                        <i class="fa-regular fa-moon"></i>
                     {% endif %}
                     </a></li>
             </ul>

@@ -10748,11 +10748,11 @@ body {
 }
 
 .header .li-icon {
-  padding: 0.375em 0 0 0.5em;
+  padding: 0.375em 0.375em 0 0.5em;
 }
 
-.header .last-li-icon {
-  padding: 0 0 0 0.5em;
+.header .li-icon-night {
+  padding: 0.375em 0.7em 0 0.9em;
 }
 
 .footer {
