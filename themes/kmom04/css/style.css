@@ -356,11 +356,7 @@ pre code {
 }
 
 .nav ul li {
-  padding: 0 1em;
-}
-
-.nav a, .nav-toggle {
-  color: #333;
+  padding: 0.75em;
 }
 
 .nav-toggle {
@@ -10730,24 +10726,33 @@ body {
 .header, .site-header {
   display: flex;
   justify-content: space-between;
-  background-color: #648caa;
 }
 
 .title, .logo {
   padding: 1em 2em 2em 0.5em;
 }
 
-.title * {
-  color: #111;
-}
-
 .title p {
   font-style: italic;
 }
 
-.active {
-  background-color: #FFCF8F;
-  border-radius: 10px;
+.header li a {
+  font-family: "Arsenal", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.24em;
+}
+
+.header i {
+  font-size: 1.5em;
+}
+
+.header .li-icon {
+  padding: 0.375em 0 0 0.5em;
+}
+
+.header .last-li-icon {
+  padding: 0 0 0 0.5em;
 }
 
 .footer {
