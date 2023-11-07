@@ -1,0 +1,98 @@
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+@import 'blockquotes';
+@import 'code';
+@import 'mobile-menu';
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+@import url('https://fonts.googleapis.com/css?family=Poly|Arsenal&display=swap');
+@import 'placement';
+@import 'header';
+@import 'footer';
+@import 'typography';
+@import 'technology';
+@import 'responsive';
+
+@font-face {
+    font-family: "Oswald";
+    src: url('../../../typsnitt/Oswald/Oswald-VariableFont_wght.ttf');
+}
+
+body {
+    background-color: $background-color;
+}
+
+* {
+    color: $font-color;
+}
+
+* {
+    font-family: $p-font;
+}
+
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+ol, ul {
+    padding-left: 1.5em;
+}
+
+.hidden {
+    display: none !important;
+}
+
+html, body {
+    height: 100%;
+}
+
+.main {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    background: $gradient;
+}
+
+.article {
+    background-color: $background-color-transparent;
+    padding: 2em;
+    border-radius: 10px;
+}
+
+.active {
+    background-color: $accent-color;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: $background-color;
+}
+
+.header, .site-header {
+    background-color: $background-alternative-color;
+}
+
+.active-tech {
+    text-decoration: underline $accent-color 2.5px;
+}
+
+%box {
+    border-color: $accent-color;
+
+    &:hover {
+    box-shadow: 5px 5px 5px $background-alternative-color;
+    }
+}
+
+.title * {
+    color: #111;
+}
+
+.nav a, .nav-toggle {
+    color: #333;
+}

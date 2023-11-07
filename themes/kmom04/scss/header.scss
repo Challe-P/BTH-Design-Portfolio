@@ -1,0 +1,22 @@
+.header, .site-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: $background-alternative-color;
+}
+
+.title, .logo {
+    padding: 1em 2em 2em 0.5em;
+}
+
+.title * {
+    color: #111;
+}
+
+.title p {
+    font-style: italic;
+}
+
+.active {
+    background-color: $accent-color;
+    border-radius: 10px;
+}

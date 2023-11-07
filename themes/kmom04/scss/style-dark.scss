@@ -1,0 +1,110 @@
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+@import 'blockquotes';
+@import 'code';
+@import 'mobile-menu';
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+@import url('https://fonts.googleapis.com/css?family=Poly|Arsenal&display=swap');
+@import 'placement';
+@import 'header';
+@import 'footer';
+@import 'typography';
+@import 'technology';
+@import 'responsive';
+
+@font-face {
+    font-family: "Oswald";
+    src: url('../../../typsnitt/Oswald/Oswald-VariableFont_wght.ttf');
+}
+
+body {
+    background-color: $background-color-dark;
+}
+
+* {
+    color: $font-color-dark;
+}
+
+* {
+    font-family: $p-font;
+}
+
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+ol, ul {
+    padding-left: 1.5em;
+}
+
+.hidden {
+    display: none !important;
+}
+
+html, body {
+    height: 100%;
+}
+
+.main {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    background: $gradient-dark;
+}
+
+.article {
+    background-color: $background-color-transparent-dark;
+    padding: 2em;
+    border-radius: 10px;
+}
+
+
+
+.footer {
+    background-color: $background-color-dark;
+}
+
+.header, .site-header {
+    background-color: $background-alternative-color-dark;
+}
+
+.active-tech {
+    text-decoration: underline $accent-color-dark 2.5px;
+}
+
+%box {
+    border-color: $accent-color-dark;
+
+    &:hover {
+    box-shadow: 5px 5px 5px $background-alternative-color-dark;
+    }
+}
+
+.title * {
+    color: #a8a8a8;
+}
+
+.nav a, .nav-toggle {
+    color: #8f8f8f;
+}
+
+.active {
+    background-color: $accent-color-dark;
+    border-radius: 10px;
+
+    a {
+        color: #d7d6d6;
+    }
+}
+
+img {
+    filter: brightness(.8) contrast(1.2);
+}
+
+// Fonts och grejer ska ändras också. Se: https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/#design
