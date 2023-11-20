@@ -11098,3 +11098,7 @@ html, body {
 .nav a, .nav-toggle {
   color: #333;
 }
+
+p img {
+  border-radius: 15px;
+}
