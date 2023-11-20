@@ -10781,11 +10781,13 @@ p, td, th, li, dd {
   overflow-wrap: break-word;
   word-wrap: break-word;
   font-family: "Poly", serif;
+  font-weight: 300;
 }
 
 h2, h3, h4, h5, h6 {
   margin-bottom: 0.6em;
   font-family: "Arsenal", sans-serif;
+  font-weight: 300;
 }
 
 img {
@@ -10794,6 +10796,7 @@ img {
 
 h1 {
   font-family: "Oswald", sans-serif;
+  font-weight: 300;
 }
 
 html, .root {
@@ -10805,6 +10808,7 @@ body, .article {
   font-size: 1em;
   line-height: 1.5em;
   margin: auto;
+  font-weight: 300;
 }
 
 h1, .h1 {
@@ -10845,11 +10849,13 @@ h5, .h5 {
 p, ul, ol, pre, table, blockquote {
   margin-top: 0;
   margin-bottom: 1.5em;
+  font-weight: 300;
 }
 
 ul ul, ol ol, ul ol, ol ul {
   margin-top: 0;
   margin-bottom: 0;
+  font-weight: 300;
 }
 
 /* Let's make sure all's aligned */
@@ -11103,5 +11109,5 @@ html, body {
 }
 
 img {
-  filter: brightness(0.8) contrast(1.2);
+  filter: brightness(0.8) contrast(1.2) url("../filter.svg#red-sunset");
 }

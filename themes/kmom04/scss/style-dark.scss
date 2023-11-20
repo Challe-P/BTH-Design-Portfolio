@@ -12,7 +12,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'placement';
 @import 'header';
 @import 'footer';
-@import 'typography';
+@import 'typography-dark';
 @import 'technology';
 @import 'responsive';
 
@@ -104,7 +104,7 @@ html, body {
 }
 
 img {
-    filter: brightness(.8) contrast(1.2);
+    filter: brightness(.8) contrast(1.2) url('../filter.svg#red-sunset');
 }
 
 // Fonts och grejer ska ändras också. Se: https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/#design
