@@ -1,42 +1,22 @@
 ---
 Title: Analysis
 Description: This is my analysis page.
+template: technologies
 ---
 Analysis
 =======================
 
 <div class="box">
-<h2>CSS</h2>
-<a href="./technology/css">Läs mer</a>
-
+<h2>Colors</h2>
+<a href="%base_url%/analysis/01_colors">Läs mer</a>
 </div>
 
 <div class="box-2">
-<h2>HTML</h2>
-<a href="./technology/html">Läs mer</a>
-</div>
-
-<div class="box-2">
-<h2>JAVASCRIPT</h2>
-<a href="./technology/javascript">Läs mer</a>
-</div>
-
-<div class="box">
-<h2>PHP</h2>
-<a href="./technology/php">Läs mer</a>
+<h2>Load</h2>
+<a href="%base_url%/analysis/02_load">Läs mer</a>
 </div>
 
 <div class="box-3">
-<h2>PYTHON</h2>
-<a href="./technology/python">Läs mer</a>
-</div>
-
-<div class="box">
-<h2>GIT</h2>
-<a href="./technology/git">Läs mer</a>
-</div>
-
-<div class="box-2">
-<h2>SQLITE</h2>
-<a href="./technology/sqlite">Läs mer</a>
+<h2>Design principles</h2>
+<a href="%base_url%/analysis/03_design_principles">Läs mer</a>
 </div>

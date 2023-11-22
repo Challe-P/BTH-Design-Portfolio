@@ -1,0 +1,30 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+    <div class="main" role="main">
+        <div class="article">
+            <div class="technology">
+                <div class="tech-nav">
+                    <div role="navigation" tabindex="-1">
+                        <h2>Analysis</h2>
+                            <ul>
+                                {% for page in pages if page.title and not page.hidden and '/analysis/' in page.url %}
+                                <li>
+                                <a {% if page.id==current_page.id %}  class="active-tech" {% endif %} href="{{ page.url }}">{{ page.title }}</a> 
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                <div class="tech-content">
+                    {{ content }}
+                </div>
+            </div>
+        </div>
+    </div>
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>
