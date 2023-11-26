@@ -322,7 +322,7 @@ code {
   padding: 0.1em 0.2em;
   border: 1px solid #ccc;
   border-radius: 0.3em;
-  background: black;
+  background: #000;
   font-family: monospace;
   font-size: 0.85rem;
   line-height: 1.9824;
@@ -332,7 +332,7 @@ pre {
   padding: 0 1em;
   border: 1px solid #ccc;
   border-radius: 0.3em;
-  background: black;
+  background: #000;
 }
 
 pre code {
@@ -10942,7 +10942,8 @@ sub {
   width: 35%;
   object-fit: cover;
   object-position: top;
-  margin: 0 1em 1em 0;
+  margin: 1em 1em 0.5em 0;
+  float: left;
 }
 
 .color-table {
