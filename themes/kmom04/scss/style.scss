@@ -1,9 +1,22 @@
 @import '../../node_modules/normalize.css/normalize';
-@import 'variables';
-@import 'blockquotes';
-@import 'code';
-@import 'mobile-menu';
-@import '../../shared/fontawesome/scss/fontawesome';
+@font-face {
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 400;
+    src: local('Oswald'), 
+    url('../../shared/typsnitt/Oswald/Oswald-VariableFont_wght.ttf'), format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "prestige-elite-std";
+    font-style: normal;
+    font-weight: 400;
+    src: local("prestige-elite-std"),
+    url('../../shared/typsnitt/PrestigeEliteStd/PrestigeEliteStd-Bd.woff') format('woff');
+    font-display: swap;
+}
+
 $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/brands';
 @import '../../shared/fontawesome/scss/solid';
@@ -12,6 +25,11 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+English&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Libre+Franklin&display=swap');
 @import url('https://db.onlinewebfonts.com/c/2a84c53b0ec3769e56d37d5f4969a56e?family=F1543+German+Deluxe+W00+Normal');
+@import 'variables';
+@import 'blockquotes';
+@import 'code';
+@import 'mobile-menu';
+@import '../../shared/fontawesome/scss/fontawesome';
 @import 'placement';
 @import 'header';
 @import 'footer';
@@ -20,15 +38,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'analysis';
 @import 'responsive';
 
-@font-face {
-    font-family: "Oswald";
-    src: url('../../../typsnitt/Oswald/Oswald-VariableFont_wght.ttf');
-}
 
-@font-face {
-    font-family: "prestige-elite-std";
-    src: url('../../../typsnitt/PrestigeEliteStd/PrestigeEliteStd-Bd.woff');
-}
 
 body {
     background-color: $background-color;

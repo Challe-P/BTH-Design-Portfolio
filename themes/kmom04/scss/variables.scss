@@ -11,8 +11,6 @@ $background-alternative-color: #648caa;
 $background-color-transparent: rgba(218, 212, 200, 0.6);
 $gradient: linear-gradient(0deg, $background-color 0%, $background-alternative-color 54%);
 
-// Lite poppigare färger kanske? Kan hända mer i alla fall
-
 // Dark theme colors
 $font-color-dark: #a8a8a8;
 $font-alternative-color-dark: #000;
@@ -24,5 +22,3 @@ $background-color-dark: rgb(0, 0, 0);
 $background-alternative-color-dark: #4B0002;
 $background-color-transparent-dark: rgba(20, 0, 1, 0.6);
 $gradient-dark: linear-gradient(0deg, $background-color-dark 0%, $background-alternative-color-dark 54%);
-
-// Behöver någon form av grå till själva bakgrunden
