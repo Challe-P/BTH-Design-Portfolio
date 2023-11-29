@@ -29,69 +29,53 @@ Som mätverktyg använde jag [PageSpeed Insights](https://pagespeed.web.dev/), e
 Resultat
 -----------------------
 
-### Skärmbild https://www.taylorswift.com/: 
+### Data:  
+<iframe class="data-iframe" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTQx6XNi27wsNcmrMgw5kYXrprCtXCDYYZzOKyl1dRDIBVXXnEe8vaB8hHLS0-0ZX3YbD3EH5kdR2gb/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+
+### Taylor Swift - https://www.taylorswift.com/: 
  
 
 <a href="%assets_url%/img/taylor.png"><img src="%assets_url%/img/taylor.png" alt="https://www.taylorswift.com/" class="analysis-img"></a>
 
 
-Typsnitt:  
-<span class="taylorfont1">Prestige elite std.</span> Används på h2 och på a (i topp-menyn). Ett monospace typsnitt, skapat för skrivmaskiner.   
-<span class="taylorfont2">Trade Gothic Next</span> (här ersatt av Libre Franklin, som är snarlik). Används i footern. En ny version av ett klassiskt sans-serif typsnitt.   
-<span class="taylorfont3">Neue Haas Grotesk Display</span> (här ersatt av Helvetica). Används för delen där man anmäler sig till nyhetsbrevet och till en rubrik. Ett typsnitt som baserades på föregångaren till Helvetica, ett sans-serif typsnitt som är ett av västvärldens mest använda.  
+Som ni kan se så är Taylor Swifts hemsida inte särskilt snabb. Den klockar in på 20,61 sekunder och är med det dubbelt så långsam som den nästa långsammaste sidan, trots att den egentligen är mindre. Man kan också se på prestandabetyget för mobil att den inte är välfungerande. Enligt PageSpeed Insights så är ett stort problem att sidan laddar in för stora bilder, med en möjlig besparing på 2114,4KiB. Med modernare bildformat kan 1760,8KiB sparas. Att ta bort JavaScript som inte används skulle också göra sidan snabbare. Sidan har också en autostartande youtube-video som gör att mycket data laddas in.  
+Läs mer [här](https://pagespeed.web.dev/analysis/https-www-taylorswift-com/ehdqxfrr1m?form_factor=desktop).  
 
-Det finns en hel del annan text, men den är inlagd i bilder, så därför kan jag inte se vad det är för typsnitt med någon större exakthet. En är någon form av handskriftstypsnitt som används för att marknadsföra 1989 (Taylor's Version), en är en lite blockigare sans-serif, med en variant (tror jag) under utan fetstil som används för att marknadsföra albumet Midnights. Dessutom finns det en med serif för att marknadsföra The Eras Tour.
-
-Taylor Swifts hemsida har en hel del olika färger, vilket jag antar är för att marknadsföra hennes olika "Eror" som artist, då varje album har en specifik färgpalett. Som bakgrundsfärg har skaparen av hemsidan valt en neutral beige färg, som för att inte ta för mycket plats. Den är också en kontrastfärg till det himmelsblå omslaget på henne senaste release, 1989 (Taylor's Version). Jag skulle säga att färgtemat är komplementärt, eller möjligen att det baserar sig i kompelentfärgspar, men det är så många färger på sidan att man nästan får analysera varje "avdelning" på hemsidan för sig själv för att få någon rätsida på det.
-   
-Typsnitten är ganska säkra val, med undantag för handskriftstypsnittet på 1989 (Taylor's Version)-reklamen - meddelandet är "låt bilderna och albumen tala för sig själva". 
-
-### Skärmbild https://phoebefuckingbridgers.com/: 
+### Phoebe Bridgers - https://phoebefuckingbridgers.com/: 
 
 
 <a href="%assets_url%/img/phoebe.png"><img src="%assets_url%/img/phoebe.png" alt="https://www.phoebefuckingbridgers.com/" class="analysis-img"></a>
 
-Färger: 
-<table class="color-table">
-<tr>
-<td style="background-color: #8E1922">
-<td style="background-color: #000000">
-<td style="background-color: #FFFFFF">
-</tr>
-</table>
+Phoebe Bridgers hemsida är den snabbaste av de tre jag testat. Inte särskilt förvånande, då det är väldigt få objekt på sidan, och bara en liten bild i mitten. Det är dock förvånande att den trots det inte har högre poäng på prestandatesterna. Enligt PageSpeed Insights beror det på att sidan har JavaScript som inte används och en widget, som används för att anmäla sig till nyhetsbrevet, blockerar renderingen och borde skjutas upp till senare.  
+Läs den fullständiga analysen [här](https://pagespeed.web.dev/analysis/https-phoebefuckingbridgers-com/pjq1d6q011?form_factor=desktop)
 
-Typsnitt:  
-<span class="phoebefont1">IM Fell.</span> Används på nästan all text.  
-<span class="phoebefont2">German deluxe.</span> Används för att variera texten.
-
-Phoebe Bridgers hemsida är väldigt sparsam med färger, och har inte ens nyanser av svart eller grått. Tre färger är allt: svart, vitt och en djup röd. Ett monokromatiskt tema. Tillsammans med de lite "läskiga" typsnitten får man en mörk, gotisk, skräck-filmskänsla som inte är helt i linje med hennes i stort väldigt lugna och finstämda musik. Det står snarare i kontrast till den, vilket jag antar är avsikten. En ansats att profilera Phoebe som en tuff rebell med smak för det makabra, får man anta.  
-
-### Skärmbild https://soccermommyband.com/home/: 
+### Soccer Mommy - https://soccermommyband.com/home/: 
 
 
 <a href="%assets_url%/img/soccermommy.png"><img src="%assets_url%/img/soccermommy.png" alt="https://soccermommyband.com/home/" class="analysis-img"></a>
 
-
-
-Typsnitt:
-<span class="soccerfont1">Helvetica, Arial, sans-serif.</span> En av västvärldens mest använda typsnittsfamiljer. Sans-serif. Används på all text på hela sidan.
-
-Soccer Mommys hemsida har många kul färger, och även i spännande animerade former. En snabb koll på färghjulet ger vid hand att det är ett analogt färgschema vi har att göra med här, eftersom färgerna ligger bredvid varandra. Vissa komplementfärger används, men det är till popups och liknande. Hemsidan har lite 90-talsvibbar i form av färg och även vissa element, ett lekfullt färgval. Typsnittet Helvetica används och det är väl det säkraste valet som kan göras. Ett snyggt sans-serif typsnitt med bra läsbarhet på webben.
-
+Soccer Mommys hemsida fick medelmåttiga betyg på PageSpeed Insights och hade en laddningstid på 10,72 sekunder i snitt. Det största prestandatappet för denna sidan är JavaScript som inte används, som kommer från WordPress-pluginmoduler. Den största delen av den onödiga koden som körs är från YouTube. Detta påverkar prestandan oerhört mycket, med 44,58 sekunder på mobil. Det andra som kan göras är att använda bilder i rätt storlek och i modernare format.  
+Läs mer [här](https://pagespeed.web.dev/analysis/https-soccermommyband-com-home/kq2lx3ms6i?form_factor=desktop)
 
 Analys
 -----------------------
 
-Det visar sig att man kan göra hemsidor på artister på väldigt olika sätt. Antingen kör du ett enkelt tema med länkar ut från sidan, med nästan inget innehåll, som i Phoebe Bridgers fall, eller så kör du all out reklam som i Taylor Swifts fall, eller så gör du någon form av mellanting som i Soccer Mommys fall. Färgmässigt var de också olika. Taylor Swift hade en mer varierande pallet, med en dämpad nästan sandstrandslik beige för att lyfta fram annat innehåll, vars första bild hade en himmelsblå kontrast till det beige. Phoebe Bridgers hade bara tre färger, med röd som en stark accent, som förde tankarna till blod eftersom det är ett skelett på mitten av sidan. Soccer Mommy hade en levande, vibrerande analoga palett med starka lila färger och ljusa rosa färger. 
+Det var väldigt varierande tid de tre sidorna laddades in med. Det är anmärkningsvärt att en av världens största artister inte har en mer välfungerande hemsida. Det verkar som att dåligt implementerad JavaScript och bilder som inte är optimerade för rätt storlek är de vanligaste orsakerna till prestandaproblem.
 
-Typsnittsmässigt stack Phoebe Bridgers sida ut mest med lite gotiska läskiga typsnitt. Soccer Mommys Helvetica var väl det minst spännande och Taylors stora mångfald av typsnitt rörde till det lite, men eftersom sidan är indelad i avsnitt, nästan som en "slide-show" så höll det ändå ihop hjälpligt.  
+#### Rangordning: 
+
+1. https://phoebefuckingbridgers.com/  
+2. https://soccermommyband.com/home/
+3. https://www.taylorswift.com/
+
+Phoebe Bridgers hemsida står som klar vinnare, om än lite oförtjänt eftersom den är i princip tom.
+
+För mig är en laddningstid på under tio sekunder absolut acceptabelt. När en sida börjar gå över där så blir det en sämre upplevelse. När jag testar att surfa vanligt, utan mätverktyg upplever jag inte Taylor Swifts sida som särskilt långsam, vilket jag antar är för att det som laddas in är bilder som kommer när man scrollar ner. Soccer Mommys sida upplevs däremot som mer krävande för datorn, och den känns till och med lite oresponsiv till en början. Phoebe Bridgers laddar snabbt och det tar inte heller så lång tid att ta i det sparsamma innehållet.
 
 Referenser
 -----------------------
 
-Beaird, Jason. - The principles of beautiful Web design / by Jason Beaird, James George, & Alex Walker.. - 2020 - 4th edition.. - ISBN: 9781925836363
-
-Folino, Emil. - Design med HTML5 och CSS3 https://dbwebb.se/guide/design-med-html5-och-css3/
+[PageSpeed Insights](https://pagespeed.web.dev/)
 
 Övrigt
 -----------------------

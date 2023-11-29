@@ -10994,6 +10994,10 @@ sub {
   font-size: large;
 }
 
+.data-iframe {
+  width: auto;
+}
+
 @media (max-width: 767px) {
   .title, .logo {
     padding: 1em 1em 1em 0.25em;
