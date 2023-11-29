@@ -1,22 +1,4 @@
 @import '../../node_modules/normalize.css/normalize';
-@font-face {
-    font-family: "Oswald";
-    font-style: normal;
-    font-weight: 400;
-    src: local('Oswald'), 
-    url('../../shared/typsnitt/Oswald/Oswald-VariableFont_wght.ttf'), format('truetype');
-    font-display: swap;
-}
-
-@font-face {
-    font-family: "prestige-elite-std";
-    font-style: normal;
-    font-weight: 400;
-    src: local("prestige-elite-std"),
-    url('../../shared/typsnitt/PrestigeEliteStd/PrestigeEliteStd-Bd.woff') format('woff');
-    font-display: swap;
-}
-
 $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/brands';
 @import '../../shared/fontawesome/scss/solid';
@@ -36,9 +18,26 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'typography';
 @import 'technology';
 @import 'analysis';
+@import 'gallery';
 @import 'responsive';
 
+@font-face {
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 400;
+    src: local('Oswald'), 
+    url('../../shared/typsnitt/Oswald/Oswald-VariableFont_wght.ttf'), format('truetype');
+    font-display: swap;
+}
 
+@font-face {
+    font-family: "prestige-elite-std";
+    font-style: normal;
+    font-weight: 400;
+    src: local("prestige-elite-std"),
+    url('../../shared/typsnitt/PrestigeEliteStd/PrestigeEliteStd-Bd.woff') format('woff');
+    font-display: swap;
+}
 
 body {
     background-color: $background-color;
@@ -116,7 +115,7 @@ html, body {
     color: #333;
 }
 
-p img {
+body img {
     border-radius: 15px;
 }
 

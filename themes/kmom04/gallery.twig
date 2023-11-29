@@ -1,0 +1,28 @@
+{% include 'incl/header.twig' %}
+<body>
+    {% include 'incl/nav.twig' %}
+    <div class="main">
+        <div class="article">
+            <div class="gallery">
+                {% for i in 1..12 %}
+                    <a href= "{{ base_url }}/image/gallery/{{ i }}.jpg" target="_blank">
+                    <picture>
+                        <source media="(max-width: 767px)" srcset="{{ base_url }}/image/gallery/{{ i }}.jpg?w=400">
+                        <source media="(min-width: 768px)" srcset="{{ base_url }}/image/gallery/{{ i }}.jpg?h=250&w=250&crop-to-fit">
+                        <img
+                        class="gallery-img"
+                        alt="En vacker bild i galleriet"
+                        src="{{ base_url }}/image/gallery/{{ i }}.jpg" />
+                    </picture>
+                    </a>
+                {% endfor %}
+            </div>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/tNxUxm3-658?si=wiSLNQNJTTKuElzU" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>
