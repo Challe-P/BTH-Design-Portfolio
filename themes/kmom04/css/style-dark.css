@@ -11213,7 +11213,7 @@ html, body {
   filter: brightness(0.8) contrast(1.2) url("../filter.svg#red-sunset");
 }
 
-p img {
+body img {
   border-radius: 15px;
 }
 
