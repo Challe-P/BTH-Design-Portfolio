@@ -10763,7 +10763,6 @@ body {
   justify-content: space-between;
   border-top: 1px solid #222;
   padding-left: 0.25em;
-  background-color: #dad4c8;
 }
 
 .footer a {
@@ -10982,6 +10981,7 @@ sub {
 
 .data-iframe {
   width: 100%;
+  padding-bottom: 52.25%;
 }
 
 .tech-content h2, h3 {
