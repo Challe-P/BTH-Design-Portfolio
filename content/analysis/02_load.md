@@ -37,14 +37,14 @@ Resultat
 
 <a href="%assets_url%/img/taylor.png"><img src="%assets_url%/img/taylor.png" alt="https://www.taylorswift.com/" class="analysis-img"></a>
 
-## https://www.taylorswift.com/
+#### https://www.taylorswift.com/
 Som ni kan se så är Taylor Swifts hemsida inte särskilt snabb. Den klockar in på 20,61 sekunder och är med det dubbelt så långsam som den nästa långsammaste sidan, trots att den egentligen är mindre. Man kan också se på prestandabetyget för mobil att den inte är välfungerande. Enligt PageSpeed Insights så är ett stort problem att sidan laddar in för stora bilder, med en möjlig besparing på 2114,4KiB. Med modernare bildformat kan 1760,8KiB sparas. Att ta bort JavaScript som inte används skulle också göra sidan snabbare. Sidan har också en autostartande youtube-video som gör att mycket data laddas in.  
 Läs mer [här](https://pagespeed.web.dev/analysis/https-www-taylorswift-com/ehdqxfrr1m?form_factor=desktop).  
 
-## https://storeuk.taylorswift.com/
+#### https://storeuk.taylorswift.com/
 Precis som på huvudsidan är det stora bilder som tynger ner denna sidan, det finns dessutom JavaScript som inte används som begränsar prestandan.
 
-## https://tstheerastour.taylorswift.com/
+#### https://tstheerastour.taylorswift.com/
 Bilder fortsätter vara det stora problemet med Taylor Swifts sidor. På denna sidan är ett stort problem att bilderna inte läses in i förväg, eftersom det största elementet beror på bilden.
 
 
@@ -54,15 +54,15 @@ Bilder fortsätter vara det stora problemet med Taylor Swifts sidor. På denna s
 <a href="%assets_url%/img/phoebe.png"><img src="%assets_url%/img/phoebe.png" alt="https://www.phoebefuckingbridgers.com/" class="analysis-img"></a>
 
 
-## https://phoebefuckingbridgers.com/
+#### https://phoebefuckingbridgers.com/
 Phoebe Bridgers hemsida är den snabbaste av de tre jag testat. Inte särskilt förvånande, då det är väldigt få objekt på sidan, och bara en liten bild i mitten. Det är dock förvånande att den trots det inte har högre poäng på prestandatesterna. Enligt PageSpeed Insights beror det på att sidan har JavaScript som inte används och en widget, som används för att anmäla sig till nyhetsbrevet, blockerar renderingen och borde skjutas upp till senare.  
 Läs den fullständiga analysen [här](https://pagespeed.web.dev/analysis/https-phoebefuckingbridgers-com/pjq1d6q011?form_factor=desktop)
 
-## https://phoebefuckingbridgers.com/shop
+#### https://phoebefuckingbridgers.com/shop
 Precis som huvudsidan är det en nyhetsbrevswidget som ställer till det här, vad gäller desktopsprestanda. För mobil är det onödig JavaScript som drar ner sidans hastighet, vilket drar ner hastigheten med 1,42 sekunder. Nyhetsbrevswidgeten är inte ens synlig på den här sidan, så det är absolut en rimlig lösning att ta bort den för undersidorna.
 
 
-## https://phoebefuckingbridgers.com/contact
+#### https://phoebefuckingbridgers.com/contact
 Samma sak som för /shop, JavaScript som exekveras, men inte används, främst för nyhetsbrevswidgeten som inte används på denna undersidan. 
 
 
@@ -71,14 +71,14 @@ Samma sak som för /shop, JavaScript som exekveras, men inte används, främst f
 
 <a href="%assets_url%/img/soccermommy.png"><img src="%assets_url%/img/soccermommy.png" alt="https://soccermommyband.com/home/" class="analysis-img"></a>
 
-## https://soccermommyband.com/home/
+#### https://soccermommyband.com/home/
 Soccer Mommys hemsida fick medelmåttiga betyg på PageSpeed Insights och hade en laddningstid på 10,72 sekunder i snitt. Det största prestandatappet för denna sidan är JavaScript som inte används, som kommer från WordPress-pluginmoduler. Den största delen av den onödiga koden som körs är från YouTube. Detta påverkar prestandan oerhört mycket, med 44,58 sekunder på mobil. Det andra som kan göras är att använda bilder i rätt storlek och i modernare format.  
 Läs mer [här](https://pagespeed.web.dev/analysis/https-soccermommyband-com-home/kq2lx3ms6i?form_factor=desktop)
 
-## https://soccermommyband.com/
+#### https://soccermommyband.com/
 Den här sidans stora problem är att en stor GIF står för mycket av innehållet. Prestandan skulle kunna förbättras med en konvertering till ett modernt videoformat.
 
-## https://soccermommyband.com/map/
+#### https://soccermommyband.com/map/
 Samma sak som startsidan "https://soccermommyband.com/", GIF-animationer som skulle kunna göras effektivare med modernare videoformat. Ett annat problem här är att bilderna är för stora.
 
 Analys

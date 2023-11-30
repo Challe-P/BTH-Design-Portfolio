@@ -117,5 +117,17 @@
         width: 100%;
         height: 100%;
     }
+
+    td {
+        display: inline-block;
+    }
+    
+    h4 {
+        clear: both;
+    }
+
+    .tech-content a {
+        word-break: break-word;
+    }
 }
 

@@ -34,7 +34,7 @@ Resultat
 
 <a href="%assets_url%/img/taylor.png"><img src="%assets_url%/img/taylor.png" alt="https://www.taylorswift.com/" class="analysis-img"></a>
 
-Färger: 
+#### Färger: 
 <table class="color-table">
 <tr>
 <td style="background-color: #5D5D5E">
@@ -63,7 +63,7 @@ Färger:
 </tr>
 </table>
 
-Typsnitt:  
+#### Typsnitt:  
 <span class="taylorfont1">Prestige elite std.</span> Används på h2 och på a (i topp-menyn). Ett monospace typsnitt, skapat för skrivmaskiner.   
 <span class="taylorfont2">Trade Gothic Next</span> (här ersatt av Libre Franklin, som är snarlik). Används i footern. En ny version av ett klassiskt sans-serif typsnitt.   
 <span class="taylorfont3">Neue Haas Grotesk Display</span> (här ersatt av Helvetica). Används för delen där man anmäler sig till nyhetsbrevet och till en rubrik. Ett typsnitt som baserades på föregångaren till Helvetica, ett sans-serif typsnitt som är ett av västvärldens mest använda.  
@@ -79,7 +79,7 @@ Typsnitten är ganska säkra val, med undantag för handskriftstypsnittet på 19
 
 <a href="%assets_url%/img/phoebe.png"><img src="%assets_url%/img/phoebe.png" alt="https://www.phoebefuckingbridgers.com/" class="analysis-img"></a>
 
-Färger: 
+#### Färger: 
 <table class="color-table">
 <tr>
 <td style="background-color: #8E1922">
@@ -100,7 +100,7 @@ Phoebe Bridgers hemsida är väldigt sparsam med färger, och har inte ens nyans
 <a href="%assets_url%/img/soccermommy.png"><img src="%assets_url%/img/soccermommy.png" alt="https://soccermommyband.com/home/" class="analysis-img"></a>
 
 
-Färger
+#### Färger:
 <table class="color-table">
 <tr>
 <td style="background-color: #E45A84">
@@ -128,7 +128,7 @@ Färger
 </tr>
 </table>
 
-Typsnitt:
+#### Typsnitt:
 <span class="soccerfont1">Helvetica, Arial, sans-serif.</span> En av västvärldens mest använda typsnittsfamiljer. Sans-serif. Används på all text på hela sidan.
 
 Soccer Mommys hemsida har många kul färger, och även i spännande animerade former. En snabb koll på färghjulet ger vid hand att det är ett analogt färgschema vi har att göra med här, eftersom färgerna ligger bredvid varandra. Vissa komplementfärger används, men det är till popups och liknande. Hemsidan har lite 90-talsvibbar i form av färg och även vissa element, ett lekfullt färgval. Typsnittet Helvetica används och det är väl det säkraste valet som kan göras. Ett snyggt sans-serif typsnitt med bra läsbarhet på webben.
