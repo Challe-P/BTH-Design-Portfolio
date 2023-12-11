@@ -1,0 +1,24 @@
+$h1-font: 'Oswald', sans-serif;
+$h2-6-font: 'Arsenal', sans-serif;
+$p-font: 'Poly', serif;
+
+// Light theme colors
+$font-color: #000;
+$font-alternative-color: #fff;
+$accent-color: #FFCF8F;
+$background-color: #dad4c8;
+$background-alternative-color: #648caa;
+$background-color-transparent: rgba(218, 212, 200, 0.6);
+$gradient: linear-gradient(0deg, $background-color 0%, $background-alternative-color 54%);
+
+// Dark theme colors
+$font-color-dark: #a8a8a8;
+$font-alternative-color-dark: #000;
+$main-color-dark: #4B0002;
+$accent-color-dark: #952d2f;
+$shade-1-dark: #b14b4e;
+$shade-2-dark: #d37a7d;
+$background-color-dark: rgb(0, 0, 0);
+$background-alternative-color-dark: #4B0002;
+$background-color-transparent-dark: rgba(20, 0, 1, 0.6);
+$gradient-dark: linear-gradient(0deg, $background-color-dark 0%, $background-alternative-color-dark 54%);

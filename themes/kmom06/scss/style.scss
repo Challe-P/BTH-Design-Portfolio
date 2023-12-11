@@ -1,0 +1,135 @@
+@import '../../node_modules/normalize.css/normalize';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+@import url('https://fonts.googleapis.com/css?family=Poly|Arsenal&display=swap');
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+English&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin&display=swap');
+@import url('https://db.onlinewebfonts.com/c/2a84c53b0ec3769e56d37d5f4969a56e?family=F1543+German+Deluxe+W00+Normal');
+@import 'variables';
+@import 'blockquotes';
+@import 'code';
+@import 'mobile-menu';
+@import '../../shared/fontawesome/scss/fontawesome';
+@import 'placement';
+@import 'header';
+@import 'footer';
+@import 'typography';
+@import 'technology';
+@import 'analysis';
+@import 'gallery';
+@import 'responsive';
+
+@font-face {
+    font-family: "Oswald";
+    font-style: normal;
+    font-weight: 400;
+    src: local('Oswald'), 
+    url('../../shared/typsnitt/Oswald/Oswald-VariableFont_wght.ttf'), format('truetype');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "prestige-elite-std";
+    font-style: normal;
+    font-weight: 400;
+    src: local("prestige-elite-std"),
+    url('../../shared/typsnitt/PrestigeEliteStd/PrestigeEliteStd-Bd.woff') format('woff');
+    font-display: swap;
+}
+
+body {
+    background-color: $background-color;
+}
+
+* {
+    color: $font-color;
+}
+
+* {
+    font-family: $p-font;
+}
+
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+ol, ul {
+    padding-left: 1.5em;
+}
+
+.hidden {
+    display: none !important;
+}
+
+html, body {
+    height: 100%;
+}
+
+.main {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    background: $gradient;
+}
+
+.article {
+    background-color: $background-color-transparent;
+    padding: 2em;
+    border-radius: 10px;
+}
+
+.active {
+    background-color: $accent-color;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: $background-color;
+}
+
+.header, .site-header {
+    background-color: $background-alternative-color;
+}
+
+.active-tech {
+    text-decoration: underline $accent-color 2.5px;
+}
+
+%box {
+    border-color: $accent-color;
+
+    &:hover {
+        box-shadow: 5px 5px 5px $background-alternative-color;
+    }
+}
+
+.title * {
+    color: #111;
+}
+
+.nav a, .nav-toggle {
+    color: #333;
+}
+
+body img {
+    border-radius: 15px;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+*::-webkit-scrollbar {
+    display: none;
+}
+  
+/* Hide scrollbar for IE, Edge and Firefox */
+* {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.header li a {
+    text-shadow: -5px 0 5px #fff;
+}

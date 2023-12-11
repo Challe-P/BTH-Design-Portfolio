@@ -1,0 +1,32 @@
+.header, .site-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title, .logo {
+    padding: 1em 2em 2em 0.5em;
+}
+
+.title p {
+    font-style: italic;
+}
+
+
+.header li a {
+    font-family: $h2-6-font;
+    font-weight: bold; 
+    text-decoration: none;
+    font-size: 1.24em; 
+}
+
+.header i {
+    font-size: 1.5em;
+}
+
+.header .li-icon {
+    padding: 0.375em 0.375em 0 0.5em;
+}
+
+.header .li-icon-night {
+    padding: 0.375em 0.7em 0 0.9em;
+}

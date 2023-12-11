@@ -1,0 +1,56 @@
+.analysis-img {
+    aspect-ratio: 16/9;
+    width: 35%;
+    object-fit: cover;
+    object-position: top;
+    margin: 1em 1em 0.5em 0;
+    float: left;
+}
+
+.color-table {
+    border-spacing: 4px;
+    border-collapse: separate;
+
+    td {
+        height: 50px;
+        width: 50px;
+    }
+}
+
+.taylorfont1 {
+    font-family: "prestige-elite-std";
+    font-size: large;
+}
+
+.taylorfont2 {
+    font-family: "Libre Franklin";
+    font-size: large;
+}
+
+.taylorfont3 {
+    font-family: Helvetica;
+    font-size: large;
+}
+
+.phoebefont1 {
+    font-family: "IM Fell English";
+    font-size: x-large;
+}
+
+.phoebefont2 {
+    font-family: "F1543 German Deluxe W00 Normal";
+    font-size: x-large;
+}
+
+.soccerfont1 {
+    font-family: Helvetica, arial, sans-serif;
+    font-size: large;
+}
+
+.data-iframe {
+    width: 100%;
+}
+
+.tech-content h2, h3 {
+    clear: both;
+}
