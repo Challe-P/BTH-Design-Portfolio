@@ -64,8 +64,17 @@ ol, ul {
     display: none !important;
 }
 
-html, body {
+html, body  {
+    padding: 0;
+    margin: 0;
     height: 100%;
+}
+
+
+body {
+    background: $gradient-dark;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .main {
@@ -79,8 +88,6 @@ html, body {
     padding: 2em;
     border-radius: 10px;
 }
-
-
 
 .footer {
     background-color: $background-color-dark;
@@ -116,6 +123,7 @@ html, body {
 
     a {
         color: #d7d6d6;
+        text-shadow: none;
     }
 }
 
@@ -131,6 +139,15 @@ img {
     filter: brightness(.8) contrast(1.2);
 }
 
+.navtext {
+    -webkit-text-stroke: 0.1px $font-color-dark;
+    text-shadow: -2px 0 0 $background-color-transparent-dark, -4px 0 0 $background-color-transparent-dark, -6px 0 0 $background-color-transparent-dark, -8px 0 0 $background-color-transparent-dark, -10px 0 0 $background-color-transparent-dark, -12px 0 0 $background-color-transparent-dark;
+
+    @media (max-width: 767px) {
+        text-shadow: 0 -2px 0 $background-color-transparent-dark, 0 -4px 0px $background-color-transparent-dark, 0 -6px 0 $background-color-transparent-dark, 0 -8px 0 $background-color-transparent-dark, 0 -10px 0 $background-color-transparent-dark, 0 -12px 0 $background-color-transparent-dark;
+    }
+}
+
 /* Hide scrollbar for Chrome, Safari and Opera */
 *::-webkit-scrollbar {
     display: none;
@@ -141,4 +158,11 @@ img {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
 }
-  
+
+.angle-wrapper {
+    filter: drop-shadow(0px 6px 3px rgb(0, 0, 0));
+}
+
+.footer-wrapper {
+    filter: drop-shadow(0px -6px 3px rgb(0, 0, 0));
+}
