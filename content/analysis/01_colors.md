@@ -32,7 +32,7 @@ Resultat
 ### Skärmbild https://www.taylorswift.com/: 
  
 
-<a href="%assets_url%/img/taylor.png"><img src="%assets_url%/img/taylor.png" alt="https://www.taylorswift.com/" class="analysis-img"></a>
+<a href="%assets_url%/img/taylor.png"><img src="../image/taylor.png" alt="https://www.taylorswift.com/" class="analysis-img"></a>
 
 #### Färger: 
 <table class="color-table">
@@ -77,7 +77,7 @@ Typsnitten är ganska säkra val, med undantag för handskriftstypsnittet på 19
 ### Skärmbild https://phoebefuckingbridgers.com/: 
 
 
-<a href="%assets_url%/img/phoebe.png"><img src="%assets_url%/img/phoebe.png" alt="https://www.phoebefuckingbridgers.com/" class="analysis-img"></a>
+<a href="%assets_url%/img/phoebe.png"><img src="../image/phoebe.png" alt="https://www.phoebefuckingbridgers.com/" class="analysis-img"></a>
 
 #### Färger: 
 <table class="color-table">
@@ -97,7 +97,7 @@ Phoebe Bridgers hemsida är väldigt sparsam med färger, och har inte ens nyans
 ### Skärmbild https://soccermommyband.com/home/: 
 
 
-<a href="%assets_url%/img/soccermommy.png"><img src="%assets_url%/img/soccermommy.png" alt="https://soccermommyband.com/home/" class="analysis-img"></a>
+<a href="%assets_url%/img/soccermommy.png"><img src="../image/soccermommy.png" alt="https://soccermommyband.com/home/" class="analysis-img"></a>
 
 
 #### Färger:

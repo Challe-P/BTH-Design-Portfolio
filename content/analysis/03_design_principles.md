@@ -26,21 +26,21 @@ Resultat
 ### Skärmbild https://www.taylorswift.com/: 
  
 
-<a href="%assets_url%/img/taylor.png"><img src="%assets_url%/img/taylor.png" alt="https://www.taylorswift.com/" class="analysis-img"></a>
+<a href="%assets_url%/img/taylor.png"><img src="../image/taylor.png" alt="https://www.taylorswift.com/" class="analysis-img"></a>
 
 Taylor Swifts hemsidas mål och syfte är att marknadsföra henne som artist och dessutom sälja biljetter och merch. Sidan använder sig mycket av stora bilder på Taylor, inget "dött" utrymme, mycket reklam för produkter och filmer. Det är dessutom en mängd starka färgpaletter, och sidan är som ett galleri av bilder. Dessutom är det en del användning av olika skalor, som gör att artisten ofta ser större ut än hon egentligen är. Sidans header och footer jobbar en del en "sandig" textur. Det arbetas också en del med ramar, på så sätt att varje ny del av sidan är så pass olik den förra att det känns som en ram när man skrollar. Allt på sidan är uppdelat en relativt starka rutnät. Alla delar på sidan har också olika typografi, vilket bidrar till känslan av att det är ett galleri vi bläddrar igenom. Undersidorna har liknande design, men med lite mer mindre element, såsom tröjor man kan köpa och bilder från instagram. Som marknadsföring för världens största artist gör sidan sitt jobb, med stora fina bilder på henne och snygg reklam för hennes album, film, videor och merch.
 
 ### Skärmbild https://phoebefuckingbridgers.com/: 
 
 
-<a href="%assets_url%/img/phoebe.png"><img src="%assets_url%/img/phoebe.png" alt="https://www.phoebefuckingbridgers.com/" class="analysis-img"></a>
+<a href="%assets_url%/img/phoebe.png"><img src="../image/phoebe.png" alt="https://www.phoebefuckingbridgers.com/" class="analysis-img"></a>
 
 Phoebe Bridgers hemsida har samma mål och syfte som Taylor Swifts, det vill säga att marknadsföra henne som artist och sälja produkter och biljetter åt henne. Sidan är med minimalistisk än de andra, men har ändå ett par design-element den arbetar med. Här finns lite "linjer" (i form av text) och en pil, som gör att ögat går i en viss färdriktning. Sidans typografi är också spännande. Den använder sig av udda typsnitt, som även ser lite "äldre" ut, vilket bidrar till sidans "läskiga" känsla. Sidans avsaknad av färg, förutom en gömd röd vid hover och när man trycker på pilen, ger en känsla av att vi är i en tom, tyst krypta. Artistens namn är som en ram, tillsammans med länkarna till sociala medier. Designen är genomgående på alla undersidor. Rent krasst tycker jag nog att sidan inte gör sitt jobb särskilt väl. Det finns knappt några synliga sätt att ta del av Phoebe Bridgers musik, inga bilder och allt känns rätt tomt. Det är antagligen medvetet, dock, eftersom det väl inte anses särskilt coolt att vara för säljande. Den sticker i och för sig ut i sitt anti-marknadstänk, och det är väl inte så många som går in på artisters egna hemsidor längre, utan de håller väl sig till deras diverse sociala medier-konton.
 
 ### Skärmbild https://soccermommyband.com/home/: 
 
 
-<a href="%assets_url%/img/soccermommy.png"><img src="%assets_url%/img/soccermommy.png" alt="https://soccermommyband.com/home/" class="analysis-img"></a>
+<a href="%assets_url%/img/soccermommy.png"><img src="../image/soccermommy.png" alt="https://soccermommyband.com/home/" class="analysis-img"></a>
 
 Soccer Mommys hemsida har samma syfte som de två andra, att marknadsföra en artist och sälja merch och biljetter. Det första man märker på sidan är att den har en animerad bakgrund, som hela tiden rör sig. Sidan jobbar också mycket med rundade linjer, vilket skapar en dynamik i sidan, tillsammans med den rörliga bakgrunden. Sidan har också starka färger, som kontrasteras av svarta rutor där viktiga länkar ligger. De mest framträdande designprinciperna för denna sidan skulle jag säga är rörelse, färg och kontrast. Designprinciperna är inte desamma för två av undersidorna, resten av undersidorna är egentligen delar av huvudsidan. De två som skiljer sig är affären, som är en extern sida och en sida för en AR-lek som användes för att marknadsföra Soccer Mommys näst senaste album. Sidan är snygg, unik och gör ett bra jobb med att marknadsföra Soccer Mommys musik, merch, videor och turnéer.
 
@@ -57,7 +57,7 @@ Det är alltid svårt att se hur ens egna verk uppfattas, men jag kan berätta e
 * Skapa lite rörelse på sidan med "suddigt" typsnitt i navigationen. 
 * Lägga till mönster som återkommer på olika sätt (detta kan dock bli lite för arbetsintensivt).
 
-# Notera uppdateringarna du gör, eller väljer att inte göra.
+Det ändringar jag valde att göra blev de tre första, det finns nu en skugga från headern och footern som göra att det känns som att de ligger över main-biten. Texten i navbaren har en liten rörelse-effekt som gör att man tittar dit. Linjerna bröt jag upp, så att det inte blir en lika stel känsla i layouten.
 
 Referenser
 -----------------------

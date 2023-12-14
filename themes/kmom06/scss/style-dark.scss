@@ -144,7 +144,7 @@ img {
     text-shadow: -2px 0 0 $background-color-transparent-dark, -4px 0 0 $background-color-transparent-dark, -6px 0 0 $background-color-transparent-dark, -8px 0 0 $background-color-transparent-dark, -10px 0 0 $background-color-transparent-dark, -12px 0 0 $background-color-transparent-dark;
 
     @media (max-width: 767px) {
-        text-shadow: 0 -2px 0 $background-color-transparent-dark, 0 -4px 0px $background-color-transparent-dark, 0 -6px 0 $background-color-transparent-dark, 0 -8px 0 $background-color-transparent-dark, 0 -10px 0 $background-color-transparent-dark, 0 -12px 0 $background-color-transparent-dark;
+        text-shadow: 0 -2px 0 $background-color-transparent-dark, 0 -4px 0 $background-color-transparent-dark, 0 -6px 0 $background-color-transparent-dark, 0 -8px 0 $background-color-transparent-dark, 0 -10px 0 $background-color-transparent-dark, 0 -12px 0 $background-color-transparent-dark;
     }
 }
 
@@ -160,9 +160,9 @@ img {
 }
 
 .angle-wrapper {
-    filter: drop-shadow(0px 6px 3px rgb(0, 0, 0));
+    filter: drop-shadow(0 6px 3px rgb(0, 0, 0));
 }
 
 .footer-wrapper {
-    filter: drop-shadow(0px -6px 3px rgb(0, 0, 0));
+    filter: drop-shadow(0 -6px 3px rgb(0, 0, 0));
 }

@@ -2483,6 +2483,9 @@ pre code {
     text-align: center;
     cursor: pointer;
   }
+  .nav {
+    padding-bottom: 2em;
+  }
 }
 /*!
  * Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com
@@ -10758,11 +10761,42 @@ body {
   padding: 0.375em 0.7em 0 0.9em;
 }
 
+.header {
+  clip-path: polygon(100% 0, 100% 100%, 66% 87%, 0 100%, 0 0);
+}
+
+.header::after {
+  background: url("../../../assets/img/dust-texture.svg");
+  opacity: 0.05;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
 .footer {
   display: flex;
   justify-content: space-between;
-  border-top: 1px solid #222;
   padding-left: 0.25em;
+  padding-top: 1em;
+  clip-path: polygon(33% 33%, 100% 0, 100% 100%, 0 100%, 0 0);
+}
+
+.footer::after {
+  background: url("../../../assets/img/dust-texture.svg");
+  opacity: 0.2;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
 }
 
 .footer a {
@@ -11109,6 +11143,12 @@ sub {
   td {
     display: inline-block;
   }
+  h4 {
+    clear: both;
+  }
+  .tech-content a {
+    word-break: break-word;
+  }
 }
 @font-face {
   font-family: "Oswald";
@@ -11124,10 +11164,6 @@ sub {
   src: local("prestige-elite-std"), url("../../shared/typsnitt/PrestigeEliteStd/PrestigeEliteStd-Bd.woff") format("woff");
   font-display: swap;
 }
-body {
-  background-color: #dad4c8;
-}
-
 * {
   color: #000;
 }
@@ -11152,13 +11188,20 @@ ol, ul {
 }
 
 html, body {
+  padding: 0;
+  margin: 0;
   height: 100%;
+}
+
+body {
+  background: linear-gradient(0deg, #dad4c8 0%, #648caa 54%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .main {
   padding-left: 0.5em;
   padding-right: 0.5em;
-  background: linear-gradient(0deg, #dad4c8 0%, #648caa 54%);
 }
 
 .article {
@@ -11170,6 +11213,9 @@ html, body {
 .active {
   background-color: #FFCF8F;
   border-radius: 10px;
+}
+.active a {
+  text-shadow: none;
 }
 
 .footer {
@@ -11212,4 +11258,22 @@ body img {
 * {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
+}
+
+.navtext {
+  -webkit-text-stroke: 0.1px #000;
+  text-shadow: -2px 0 0 rgba(218, 212, 200, 0.6), -4px 0 0 rgba(218, 212, 200, 0.6), -6px 0 0 rgba(218, 212, 200, 0.6), -8px 0 0 rgba(218, 212, 200, 0.6), -10px 0 0 rgba(218, 212, 200, 0.6), -12px 0 0 rgba(218, 212, 200, 0.6);
+}
+@media (max-width: 767px) {
+  .navtext {
+    text-shadow: 0 -2px 0 rgba(218, 212, 200, 0.6), 0 -4px 0 rgba(218, 212, 200, 0.6), 0 -6px 0 rgba(218, 212, 200, 0.6), 0 -8px 0 rgba(218, 212, 200, 0.6), 0 -10px 0 rgba(218, 212, 200, 0.6), 0 -12px 0 rgba(218, 212, 200, 0.6);
+  }
+}
+
+.angle-wrapper {
+  filter: drop-shadow(0 6px 3px rgb(84, 84, 84));
+}
+
+.footer-wrapper {
+  filter: drop-shadow(0 -6px 3px rgb(84, 84, 84));
 }

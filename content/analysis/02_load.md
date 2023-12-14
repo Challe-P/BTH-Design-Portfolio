@@ -35,7 +35,7 @@ Resultat
 ### Taylor Swift: 
  
 
-<a href="%assets_url%/img/taylor.png"><img src="%assets_url%/img/taylor.png" alt="https://www.taylorswift.com/" class="analysis-img"></a>
+<a href="%assets_url%/img/taylor.png"><img src="../image/taylor.png" alt="https://www.taylorswift.com/" class="analysis-img"></a>
 
 #### https://www.taylorswift.com/
 Som ni kan se så är Taylor Swifts hemsida inte särskilt snabb. Den klockar in på 20,61 sekunder och är med det dubbelt så långsam som den nästa långsammaste sidan, trots att den egentligen är mindre. Man kan också se på prestandabetyget för mobil att den inte är välfungerande. Enligt PageSpeed Insights så är ett stort problem att sidan laddar in för stora bilder, med en möjlig besparing på 2114,4KiB. Med modernare bildformat kan 1760,8KiB sparas. Att ta bort JavaScript som inte används skulle också göra sidan snabbare. Sidan har också en autostartande youtube-video som gör att mycket data laddas in.  
@@ -51,7 +51,7 @@ Bilder fortsätter vara det stora problemet med Taylor Swifts sidor. På denna s
 ### Phoebe Bridgers: 
 
 
-<a href="%assets_url%/img/phoebe.png"><img src="%assets_url%/img/phoebe.png" alt="https://www.phoebefuckingbridgers.com/" class="analysis-img"></a>
+<a href="%assets_url%/img/phoebe.png"><img src="../image/phoebe.png" alt="https://www.phoebefuckingbridgers.com/" class="analysis-img"></a>
 
 
 #### https://phoebefuckingbridgers.com/
@@ -69,7 +69,7 @@ Samma sak som för /shop, JavaScript som exekveras, men inte används, främst f
 ### Soccer Mommy: 
 
 
-<a href="%assets_url%/img/soccermommy.png"><img src="%assets_url%/img/soccermommy.png" alt="https://soccermommyband.com/home/" class="analysis-img"></a>
+<a href="%assets_url%/img/soccermommy.png"><img src="../image/soccermommy.png" alt="https://soccermommyband.com/home/" class="analysis-img"></a>
 
 #### https://soccermommyband.com/home/
 Soccer Mommys hemsida fick medelmåttiga betyg på PageSpeed Insights och hade en laddningstid på 10,72 sekunder i snitt. Det största prestandatappet för denna sidan är JavaScript som inte används, som kommer från WordPress-pluginmoduler. Den största delen av den onödiga koden som körs är från YouTube. Detta påverkar prestandan oerhört mycket, med 44,58 sekunder på mobil. Det andra som kan göras är att använda bilder i rätt storlek och i modernare format.  
