@@ -2486,6 +2486,9 @@ pre code {
     text-align: center;
     cursor: pointer;
   }
+  .nav {
+    padding-bottom: 2em;
+  }
 }
 /*!
  * Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com
@@ -10766,7 +10769,7 @@ body {
 }
 
 .header::after {
-  background: url("../../../assets/img/sand.svg");
+  background: url("../../../assets/img/dust-texture.svg");
   opacity: 0.05;
   content: "";
   display: block;
@@ -10787,7 +10790,7 @@ body {
 }
 
 .footer::after {
-  background: url("../../../assets/img/sand.svg");
+  background: url("../../../assets/img/dust-texture.svg");
   opacity: 0.2;
   content: "";
   display: block;
